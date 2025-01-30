@@ -1,0 +1,27 @@
+// forma básica
+// Para i=1 hasta n con incrementos j
+//     Instrucciones a ejecutar hasta que i sea menor o igual a n
+// Fin_Para
+// 
+
+// Genere una solución que permita presentar la suma y 
+// el promedio de los números del 1 al 10.
+
+1.  Inicio
+2.  // Declaración de variables
+3.  numero, i[1-10]          // Contador: almacena los valores del 1 al 10 en el bucle
+4.  suma, i[0-n] <-- 0       // Acumulador: almacena la suma total de los números
+5.  promedio, d[0-n]         // Variable para calcular el promedio
+6.  
+7.  // Proceso para calcular la suma usando un ciclo Para
+8.  Para (numero <-- 1, numero <= 10, 1) entonces   // El bucle recorre del 1 al 10
+9.      suma <-- suma + numero        // Se acumula el valor actual en la variable suma
+10. Fin Para                           // Fin del bucle después de 10 iteraciones
+11.  
+12. // Calcular el promedio
+13. promedio <-- suma / 10.0            // Se divide la suma total entre 10
+14.  
+15. // Mostrar los resultados
+16. Escribir "La suma de los números del 1 al 10 es: " + suma
+17. Escribir "El promedio de los números del 1 al 10 es: " + promedio
+18. Fin
